@@ -6,22 +6,16 @@
     <title>JVS Assign</title>
 </head>
 <body>
-        <h1>Welcome To Intro To javascript</h1>
+    <p id="p"></p>
 
-        
-    <script type="text/javascript"> 
+    <textarea name="viewPtag" id="lagos"></textarea>
 
-var user_age = prompt("What is your current age?");
+    <button onclick="
+        var t = document.getElementById('lagos').value;
+        document.getElementById('p').innerHTML= t;
 
-var currentAge = 20;
+    ">click here to view p tag.</button>
 
-var month = prompt(`Which month did you become currentAge years old?`);
-
-var nextAge = currentAge + 1;
-
-alert(`You will be ${nextAge} years old next month.`);
-       
-
-       </script>
+    
 </body>
 </html>
